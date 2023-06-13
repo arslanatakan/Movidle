@@ -20,7 +20,10 @@ public class FileController {
         while ((line=reader.readLine())!=null){
             arrayMovie= line.split(regex);
         }
+        System.out.println("Atakan degisiklik");
+
     }
+
 
 
 }
